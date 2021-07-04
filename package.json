@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "watch": "nodemon app.js",
-    "test-watch": "jest --watchAll",
-    "test": "jest"
+    "test-watch": "jest --watchAll --coverage --verbose",
+    "test": "jest --coverage --verbose"
   },
   "jest": {
     "testEnvironment": "node"
@@ -22,6 +22,11 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jest": "^26.6.3",
-    "mongoose": "^5.10.15"
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.1.0"
   }
 }
