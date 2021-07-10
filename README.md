@@ -5,7 +5,7 @@
 
 **This app to explain how to creat a sign up and sign in by basic auth**   
 
-[Produchion deployment](https://class04.herokuapp.com/)    
+[Produchion deployment](https://class6awr.herokuapp.com/)    
 [Pull req](https://github.com/AbeerAl-Rafati/basic-auth/pull/3)   
 
 
